@@ -26,8 +26,6 @@ public class RegistrationPageTest {
 
     @Before
     public void setUp() {
-
-
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         this.objMainPage = new MainPage(driver);

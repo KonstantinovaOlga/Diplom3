@@ -57,7 +57,7 @@ public class UserAPI {
                         .and()
                         .body(user)
                         .when()
-                        .post(LOGIN_USER);
+                        .post(UPDATE_USER);
         return response;
     }
 
